@@ -833,19 +833,5 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'mnwka',
-            alignment: 'left',
-            hidden: false,
-            title: 'MNWKA',
-            image: './img/mnwka.jpeg',
-            description: `This may be the coolest I've ever felt`,
-            location: locations['mckibben'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
     ]
 };

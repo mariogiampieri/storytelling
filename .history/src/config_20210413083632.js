@@ -819,33 +819,5 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'mckibben',
-            alignment: 'right',
-            hidden: false,
-            title: 'F.ART',
-            image: './img/friendship-burn.jpeg',
-            description: `This place was a shithole but it was a lot of fun too. I think this was peak friendship burn time, peak deli sandwich and pint of ice cream at 3am time, and peak sitting naked in the kitchen time.`,
-            location: locations['mckibben'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'mnwka',
-            alignment: 'left',
-            hidden: false,
-            title: 'MNWKA',
-            image: './img/mnwka.jpeg',
-            description: `This may be the coolest I've ever felt`,
-            location: locations['mckibben'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
     ]
 };

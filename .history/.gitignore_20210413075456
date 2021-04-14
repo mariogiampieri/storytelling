@@ -62,4 +62,4 @@ typings/
 .next
 
 # development config.js files
-/assets/gis/
+# /src/config.js

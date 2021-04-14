@@ -47,12 +47,6 @@ var locations = {
         pitch: 13.50,
         bearing: 29.63
     },
-    'break': {
-        center: [-73.92437, 40.76132],
-        zoom: 18.09,
-        pitch: 38.00,
-        bearing: 81.20
-    },
     'pulaski': {
         center: [-73.95261, 40.73924],
         zoom: 15.42,
@@ -358,12 +352,6 @@ var locations = {
         zoom: 17.46,
         pitch: 20.00,
         bearing: -0.80
-    },
-    'i-95-1': {
-        center: [-74.50523, 40.28257],
-        zoom: 11.46,
-        pitch: 23.50,
-        bearing: -22.82
     }
 
 
@@ -771,76 +759,6 @@ var config = {
             image: './img/queens.jpeg',
             description: `... even though you continued to just fall asleep everywhere! Damn dude`,
             location: locations['queens-home'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'break',
-            alignment: 'right',
-            hidden: false,
-            title: `Breakin' my balls`,
-            image: './img/break.jpeg',
-            description: `I wish that we liked sports more when we lived in Queens because we could have spent a lot more time here. It was really great when we did go though even if you suck at pool.`,
-            location: locations['break'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'i-95',
-            alignment: 'right',
-            hidden: false,
-            title: 'Shopping spree',
-            image: './img/philly.jpeg',
-            description: `Remember when we bought a panel van full of bike parts and I fell asleep before the fun started? Me either`,
-            location: locations['philly'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'jumble',
-            alignment: 'right',
-            hidden: false,
-            title: 'Irish breakfast',
-            image: './img/return-from-philly.jpeg',
-            description: `The jumble was cool though. I distinctly remeber having Evan Williams and bad gas station coffee before going though, which even sounded terrible then.`,
-            location: locations['allentown'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'mckibben',
-            alignment: 'right',
-            hidden: false,
-            title: 'F.ART',
-            image: './img/friendship-burn.jpeg',
-            description: `This place was a shithole but it was a lot of fun too. I think this was peak friendship burn time, peak deli sandwich and pint of ice cream at 3am time, and peak sitting naked in the kitchen time.`,
-            location: locations['mckibben'],
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'mnwka',
-            alignment: 'left',
-            hidden: false,
-            title: 'MNWKA',
-            image: './img/mnwka.jpeg',
-            description: `This may be the coolest I've ever felt`,
-            location: locations['mckibben'],
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
