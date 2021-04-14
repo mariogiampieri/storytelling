@@ -385,8 +385,8 @@ var locations = {
 
 
 var config = {
-    style: 'mapbox://styles/mgiampieri/cknhf8v4r04zx17k1qcxrg1lz',
-    accessToken: 'pk.eyJ1IjoibWdpYW1waWVyaSIsImEiOiJaQ1VSbEdnIn0.sOtbImYVm_Pq682-5mDJEA',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    accessToken: 'pk.eyJ1IjoibWFyaW9hZyIsImEiOiJja25kYnZ6bnExOGNxMm5uczAyeGkzbm9jIn0.9qgZHh97osM101AWsG7Jgw',
     showMarkers: true,
     markerColor: '#3FB1CE',
     theme: 'light',
@@ -876,7 +876,7 @@ var config = {
         {
             id: 'end',
             alignment: 'left',
-            hidden: false,
+            hidden: true,
             title: '...',
             image: './img/friendship-burn.jpeg',
             description: ``,

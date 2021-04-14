@@ -385,8 +385,8 @@ var locations = {
 
 
 var config = {
-    style: 'mapbox://styles/mgiampieri/cknhf8v4r04zx17k1qcxrg1lz',
-    accessToken: 'pk.eyJ1IjoibWdpYW1waWVyaSIsImEiOiJaQ1VSbEdnIn0.sOtbImYVm_Pq682-5mDJEA',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    accessToken: 'pk.eyJ1IjoibWFyaW9hZyIsImEiOiJja25kYnZ6bnExOGNxMm5uczAyeGkzbm9jIn0.9qgZHh97osM101AWsG7Jgw',
     showMarkers: true,
     markerColor: '#3FB1CE',
     theme: 'light',
@@ -836,7 +836,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'F.ART',
-            image: './img/mckibben.JPG',
+            image: './img/mckibben.jpeg',
             description: `This place was a shithole but it was a lot of fun too. I think this was peak friendship burn time, peak deli sandwich and pint of ice cream at 3am time, and peak sitting naked in the kitchen time.`,
             location: locations['mckibben'],
             mapAnimation: 'flyTo',
@@ -878,9 +878,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '...',
-            image: './img/friendship-burn.jpeg',
+            image: './img/cornelia.jpeg',
             description: ``,
-            location: locations['nyc'],
+            location: locations['cornelia'],
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
